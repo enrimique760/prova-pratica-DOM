@@ -1,0 +1,92 @@
+ body {
+    font-family: Arial, sans-serif;
+   background-image: url(https://images.hdqwalls.com/download/assetto-corsa-game-lamborghini-countach-5k-83-1920x1080.jpg);
+   }
+  h1{
+    animation: changeColor 5s infinite;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    margin: 25 auto; 
+  }  
+  @keyframes changeColor {
+    0% { color: #3ef00dce; }  
+    50% { color: #3d8506; }  
+    100% { color: #00ffc8; }   
+  }
+div{
+    color: #fff;
+}
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 560px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 5px solid #ffffff;
+    border-radius: 15px;
+    background-color: #687684;
+  }
+  label, input {
+    margin-bottom: 25px;
+  } 
+  
+   button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  
+
+ #container{
+    padding-top: 15%;
+  }
+  
+
+   body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+ 
